@@ -1,0 +1,12 @@
+{
+	"scripts": {
+		"dev": "npm start",
+		"start": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\""
+	},
+	"devDependencies": {
+		"concurrently": "^9.2.1"
+	},
+	"dependencies": {
+		"bcrypt": "^6.0.0"
+	}
+}
