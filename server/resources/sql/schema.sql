@@ -1,0 +1,15 @@
+-- DB作成
+CREATE DATABASE IF NOT EXISTS fika_beats
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_general_ci;
+
+USE fika_beats;
+
+-- usersテーブル作成
+CREATE TABLE IF NOT EXISTS users (
+  user_id INT AUTO_INCREMENT PRIMARY KEY,
+  user_name VARCHAR(255) NOT NULL,
+  login_id VARCHAR(100) NOT NULL UNIQUE,
+  password VARCHAR(255) NOT NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
