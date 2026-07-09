@@ -15,13 +15,13 @@ Spotify Web APIを利用し、
 ### フロントエンド
 - HTML
 - CSS
-- JavaScript
 - TypeScript
 - Vue.js
 
 ### バックエンド
-- Node.js
+- JavaScript
 - Express
+- Node.js
 
 ### データベース
 - MySQL
